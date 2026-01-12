@@ -2,5 +2,46 @@
 
 /* Use CSS selectors and rules to style your portfolio page */
 body {
-  font-family: sans-serif;
+    font-family: Arial;
+    background-color: rgba(0, 255, 255, 0.192);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+}
+
+table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: grey;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+ul
+{
+    list-style-type: none;
 }
